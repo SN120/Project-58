@@ -1,0 +1,40 @@
+body {
+    color: #1b5e20;
+    text-align: center;
+}
+
+img {
+    border-radius: 50%;
+}
+
+#Home {
+    background: linear-gradient(#00c853 50%, #ffffff 100%);
+    height: 500px;
+}
+#About {
+    height: 250px;
+}
+#Player{
+    height: 250px;
+}
+
+.links {
+    float: right;
+    padding-right:50px;
+    font-family: fantasy;
+    font-size: 20px;
+        color:blue;
+}
+.links:hover{
+    color: red;
+}
+
+.line {
+    height: 6px;
+    background-color: #000;
+    width: 70px;
+    margin: 8px auto;
+}
+html{
+    scroll-behavior: smooth;
+}
